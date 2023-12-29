@@ -13,7 +13,7 @@ export default function Loginform() {
                 <div className="bg-red-500 text-white w-fit text-sm py-1 px-3 rounded-md mt-2">Error Message</div>
                 <Link className="text-sm mt-3 text-right" href={'/register'}>
                     Don&apos;t have an account? 
-                    <span className="underline">Register</span>
+                    <span className="underline"> Register</span>
                 </Link>
             </form>
         </div>
