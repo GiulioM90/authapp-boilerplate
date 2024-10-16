@@ -36,7 +36,7 @@ export default function Loginform() {
                 <form onSubmit={handleSubmit}className="flex flex-col gap-3">
                     <input onChange={(e) => setEmail(e.target.value)} type="text" placeholder="Email" />
                     <input onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Password" />
-                    <button className="bg-green-600 text-white font-bold cursos-pointer px-6 py-2"> Login </button>
+                    <button className="bg-green-600 text-white font-bold cursor-pointer px-6 py-2"> Login </button>
                     { error && (
                         <div className="bg-red-500 text-white w-fit text-sm py-1 px-3 rounded-md mt-2">
                          {error}
